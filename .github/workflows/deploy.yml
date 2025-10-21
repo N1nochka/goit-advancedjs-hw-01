@@ -25,5 +25,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages          # ветка для GitHub Pages
-          folder: dist              # папка с билдом
-          token: ${{ secrets.GITHUB_TOKEN }}  # автоматически доступен в Actions
+    folder: dist              # папка с билдом
+    token: ${{ secrets.GITHUB_TOKEN }}  # оставь именно так
